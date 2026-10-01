@@ -1,0 +1,48 @@
+:root {
+    --bg-color: #303446;
+    --secondary-bg-color: #414559;
+    --hr-color: #737994;
+    --text-color: #c6d0f5;
+    --button-color: #232634;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    font-family: "Hind Guntur", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo {
+    max-width: 200px;
+}
+.month-selector {
+    display: flex;
+    align-items: center;
+}
+.month-buttons {
+    padding: 15px;
+}
+#month {
+    margin-left: 10px;
+    font-size: 32px;
+}
+.header-divider {
+    border: none;
+    height: 2px;
+    width: 100%;
+    background-color: var(--hr-color);
+    margin: 0;
+}
+.header button {
+    background-color: var(--button-color);
+    border: none;
+    color: var(--text-color);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 24px;
+}
