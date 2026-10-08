@@ -46,3 +46,31 @@
     border-radius: 5px;
     font-size: 24px;
 }
+.calendar {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+td {
+    width: 12vw;
+    height: 12vw;
+    border: 1px solid var(--hr-color);
+    vertical-align: top;
+    text-align: left;
+    padding: 4px;
+    div {
+        background-color: var(--secondary-bg-color);
+        border-radius: 5px;
+        padding: 2px;
+        margin-top: 2px;
+    }
+}
+
+.list-event {
+    background-color: var(--secondary-bg-color);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+    text-align: left;
+    cursor: pointer;
+}

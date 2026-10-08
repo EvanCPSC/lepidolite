@@ -30,7 +30,7 @@
                         </span>
                     </button>
                 </div>
-                <p id="month">Month</p>
+                <p id="month">September</p>
             </div>
             <div class="right-buttons">
                 <button class="calendar-button" onclick="switchView(false)">
@@ -38,7 +38,7 @@
                         calendar_today
                     </span>
                 </button>
-                <button class="add-button">
+                <button class="add-button" onclick="createLepidEvent()">
                     <span class="material-symbols-outlined add-icon">
                         add
                     </span>
@@ -46,6 +46,10 @@
             </div>
         </div>
         <hr class="header-divider">
+        <div class="list-event" onclick="editLepidEvent(null)">
+            <p>edit event</p>
+            <p>September 9, 2026</p>
+        </div>
 
     </body>
     
