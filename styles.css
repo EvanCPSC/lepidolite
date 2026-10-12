@@ -14,7 +14,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .logo {
     max-width: 200px;
@@ -37,7 +38,7 @@
     background-color: var(--hr-color);
     margin: 0;
 }
-.header button {
+.header button, form button {
     background-color: var(--button-color);
     border: none;
     color: var(--text-color);
@@ -51,8 +52,8 @@
     border-collapse: collapse;
 }
 td {
-    width: 12vw;
-    height: 12vw;
+    width: 10rem;
+    height: 6rem;
     border: 1px solid var(--hr-color);
     vertical-align: top;
     text-align: left;
@@ -73,4 +74,13 @@ td {
     width: 80%;
     text-align: left;
     cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    font-size: 18px;
 }
